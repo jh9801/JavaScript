@@ -20,7 +20,7 @@ console.log(true + '');
 console.log(null + '');
 // console.log(Symbol() + '');
 console.log({} + '');
-console.log([]+'');
-console.log(function() {} + '');
+console.log([] + '');
+console.log(function () {} + '');
 
 

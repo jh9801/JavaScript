@@ -14,6 +14,7 @@ console.log(typeof key);
 
 //객체 생성
 var obj = {};
+console.log(obj);
 
 /*
 객체 타입
