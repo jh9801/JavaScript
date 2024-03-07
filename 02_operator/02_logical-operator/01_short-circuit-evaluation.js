@@ -14,16 +14,16 @@ console.log('banana' || false);
 
 // AND의 경우 좌항, 우황 모두 확인해야 하므로
 // 논리 연산의 결과를 결정하는 두 번째 피연산자 banana를 그대로 반환한다.
-console.log('apple'&& 'banana');
+console.log('apple' && 'banana');
 console.log(false && 'banana');
 
 // 단축 평가를 사용하면 if문을 대체할 수 있다.
 var num = 1;
 
-if(num % 2 == 0 )
-console.log('짝수입니다.');
+if (num % 2 == 0)
+    console.log('짝수입니다.');
 else
-console.log('홀수입니다.');
+    console.log('홀수입니다.');
 
 num % 2 == 0 && console.log('짝수입니다.');
 num % 2 == 0 || console.log('홀수입니다.');

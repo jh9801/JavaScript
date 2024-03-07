@@ -14,4 +14,5 @@ console.log(String(false));
 
 // 2 Object.prototype.toString 메서드 사용
 console.log((10).toString());
+console.log(typeof (10).toString());
 console.log((NaN).toString());
